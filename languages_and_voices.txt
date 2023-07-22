@@ -1,0 +1,722 @@
+
+* Google TTS *
+Afrikaans, male: af-ZA
+Albanian, male: sq-AL
+Arabic, female/male: ar-SA
+Armenian, male: hy-AM
+Bengali (Bangladesh), female/male: bn-BD
+Bengali (India), female/male: bn-IN
+Bosnian, male: bs-BA
+Cantonese, female/male: yue-HK
+Catalan, male: ca-ES
+Chinese (Hong Kong), female/male: zh-HK
+Chinese (Simplified), female/male: zh-CN
+Chinese (Taiwan), female/male: zh-TW
+Croatian, male: hr-HR
+Czech, female: cs-CZ
+Danish, female: da-DK
+Dutch, female/male: nl-NL
+English (Australia), female/male: en-AU
+English (Great Britain), female/male: en-GB
+English (United States), female/male: en-US
+Esperanto, male: eo
+Estonian, male: et-EE
+Filipino, female/male: fil-PH
+Finnish, female: fi-FI
+French (Canada), female/male: fr-CA
+French (France), female/male: fr-FR
+German, female/male: de-DE
+Greek, female: el-GR
+Hindi, female/male: hi-IN
+Hungarian, female: hu-HU
+Icelandic, male: is-IS
+Indonesian, female/male: id-ID
+Italian, female/male: it-IT
+Japanese, female/male: ja-JP
+Khmer, female/male: km-KH
+Korean, female/male: ko-KR
+Latin, female/male: la
+Latvian, male: lv-LV
+Macedonian, male: mk-MK
+Moldavian, female: ro-MO
+Montenegrin, male: sr-ME
+Nepali, female: ne-NP
+Norwegian (Bokmal), female/male: nb-NO
+Polish, female/male: pl-PL
+Portuguese (Brazil), female: pt-BR
+Portuguese (Portugal), female/male: pt-PT
+Romanian, female: ro-RO
+Russian, female: ru-RU
+Serbian (Cyrillic), male: sr-CS
+Serbo-Croatian, male: sr-SP
+Sinhala, female: si-LK
+Slovak, female: sk-SK
+Spanish, female: es-ES
+Spanish (Mexico), female/male: es-MX
+Swahili, male: sw-KE
+Swedish, female/male: sv-SE
+Tamil, female/male: ta-IN
+Thai, female/male: th-TH
+Turkish, female/male: tr-TR
+Ukrainian, female: uk-UA
+Vietnamese, female/male: vi-VN
+Welsh, male: cy-GB
+
+
+* Google Cloud TTS (with API-key only) *
+Afrikaans (South Africa), female: af-ZA (Standard-A)
+Arabic, female/male: ar-XA (Standard-A, Standard-B, Standard-C, Standard-D, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D)
+Basque (Spain), female: eu-ES (Standard-A)
+Bengali (India), female/male: bn-IN (Standard-A, Standard-B, Wavenet-A, Wavenet-B)
+Bulgarian (Bulgaria), female: bg-BG (Standard-A)
+Catalan (Spain), female: ca-ES (Standard-A)
+Chinese (Hong Kong), female/male: yue-HK (Standard-A, Standard-B, Standard-C, Standard-D)
+Chinese (Simplified), female/male: cmn-CN (Standard-C, Standard-B, Standard-A, Standard-D, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D)
+Chinese (Traditional), female/male: cmn-TW (Standard-A, Standard-B, Standard-C, Wavenet-A, Wavenet-B, Wavenet-C)
+Czech (Czech Republic), female: cs-CZ (Standard-A, Wavenet-A)
+Danish (Denmark), female/male: da-DK (Standard-C, Standard-D, Standard-E, Standard-A, Wavenet-C, Wavenet-D, Wavenet-E, Wavenet-A, Neural2-D, Neural2-F)
+Dutch (Belgium), female/male: nl-BE (Standard-A, Standard-B, Wavenet-A, Wavenet-B)
+Dutch (Netherlands), female/male: nl-NL (Standard-B, Standard-C, Standard-D, Standard-A, Standard-E, Wavenet-B, Wavenet-C, Wavenet-D, Wavenet-A, Wavenet-E)
+English (Australia), female/male: en-AU (Standard-A, Standard-B, Standard-C, Standard-D, News-E, News-F, News-G, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D, Neural2-A, Neural2-B, Neural2-C, Neural2-D, Polyglot-1)
+English (India), female/male: en-IN (Standard-D, Standard-A, Standard-B, Standard-C, Wavenet-D, Wavenet-A, Wavenet-B, Wavenet-C)
+English (United Kingdom), female/male: en-GB (Standard-A, Standard-B, Standard-C, Standard-D, Standard-F, News-G, News-H, News-I, News-J, News-K, News-L, News-M, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D, Wavenet-F, Neural2-A, Neural2-B, Neural2-C, Neural2-D, Neural2-F)
+English (United States), female/male: en-US (Standard-A, Standard-B, Standard-C, Standard-D, Standard-E, Standard-F, Standard-G, Standard-H, Standard-I, Standard-J, News-K, News-L, News-M, News-N, Wavenet-G, Wavenet-H, Wavenet-I, Wavenet-J, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D, Wavenet-E, Wavenet-F, Studio-M, Studio-O, Neural2-A, Neural2-C, Neural2-D, Neural2-E, Neural2-F, Neural2-G, Neural2-H, Neural2-I, Neural2-J, Polyglot-1)
+Filipino (Philippines), female/male: fil-PH (Standard-A, Standard-B, Standard-C, Standard-D, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D, Neural2-D, Neural2-A)
+Finnish (Finland), female: fi-FI (Standard-A, Wavenet-A)
+French (Canada), female/male: fr-CA (Standard-A, Standard-B, Standard-C, Standard-D, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D, Neural2-A, Neural2-B, Neural2-C, Neural2-D)
+French (France), female/male: fr-FR (Standard-A, Standard-B, Standard-C, Standard-D, Standard-E, Wavenet-E, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D, Neural2-A, Neural2-B, Neural2-C, Neural2-D, Neural2-E, Polyglot-1)
+Galician (Spain), female: gl-ES (Standard-A)
+German (Germany), female/male: de-DE (Standard-A, Standard-B, Standard-C, Standard-D, Standard-E, Standard-F, Wavenet-F, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D, Wavenet-E, Neural2-B, Neural2-C, Neural2-D, Neural2-F, Polyglot-1)
+Greek (Greece), female: el-GR (Standard-A, Wavenet-A)
+Gujarati (India), female/male: gu-IN (Standard-A, Standard-B, Wavenet-A, Wavenet-B)
+Hebrew (Israel), female/male: he-IL (Standard-D, Standard-A, Standard-B, Standard-C, Wavenet-D, Wavenet-A, Wavenet-B, Wavenet-C)
+Hindi (India), female/male: hi-IN (Standard-D, Standard-A, Standard-B, Standard-C, Wavenet-D, Wavenet-A, Wavenet-B, Wavenet-C, Neural2-A, Neural2-B, Neural2-C, Neural2-D)
+Hungarian (Hungary), female: hu-HU (Standard-A, Wavenet-A)
+Icelandic (Iceland), female: is-IS (Standard-A)
+Indonesian (Indonesia), female/male: id-ID (Standard-A, Standard-B, Standard-C, Standard-D, Wavenet-D, Wavenet-A, Wavenet-B, Wavenet-C)
+Italian (Italy), female/male: it-IT (Standard-B, Standard-C, Standard-D, Standard-A, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D, Neural2-A, Neural2-C)
+Japanese (Japan), female/male: ja-JP (Standard-A, Standard-B, Standard-C, Standard-D, Wavenet-B, Wavenet-C, Wavenet-D, Wavenet-A, Neural2-B, Neural2-C, Neural2-D)
+Kannada (India), female/male: kn-IN (Standard-A, Standard-B, Wavenet-A, Wavenet-B)
+Korean (South Korea), female/male: ko-KR (Standard-A, Standard-B, Standard-C, Standard-D, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D, Neural2-A, Neural2-B, Neural2-C)
+Latvian (Latvia), male: lv-LV (Standard-A)
+Lithuanian (Lithuania), male: lt-LT (Standard-A)
+Malay (Malaysia), female/male: ms-MY (Standard-A, Standard-B, Standard-C, Standard-D, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D)
+Malayalam (India), female/male: ml-IN (Standard-A, Standard-B, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D)
+Marathi (India), female/male: mr-IN (Standard-A, Standard-B, Standard-C, Wavenet-A, Wavenet-B, Wavenet-C)
+Norwegian (Norway), female/male: nb-NO (Standard-A, Standard-B, Standard-E, Standard-C, Standard-D, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D, Wavenet-E)
+Polish (Poland), female/male: pl-PL (Standard-A, Standard-B, Standard-C, Standard-E, Standard-D, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-E, Wavenet-D)
+Portuguese (Brazil), female/male: pt-BR (Standard-A, Standard-B, Standard-C, Wavenet-A, Wavenet-B, Wavenet-C, Neural2-A, Neural2-B, Neural2-C)
+Portuguese (Portugal), female/male: pt-PT (Standard-A, Standard-B, Standard-C, Standard-D, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D)
+Punjabi (India), female/male: pa-IN (Standard-A, Standard-B, Standard-C, Standard-D, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D)
+Romanian (Romania), female: ro-RO (Standard-A, Wavenet-A)
+Russian (Russia), female/male: ru-RU (Standard-E, Standard-A, Standard-B, Standard-C, Standard-D, Wavenet-E, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D)
+Serbian (Cyrillic), female: sr-RS (Standard-A)
+Slovak (Slovakia), female: sk-SK (Standard-A, Wavenet-A)
+Spanish (Spain), female/male: es-ES (Standard-A, Standard-C, Standard-D, Standard-B, Wavenet-C, Wavenet-D, Wavenet-B, Neural2-A, Neural2-B, Neural2-C, Neural2-D, Neural2-E, Neural2-F, Polyglot-1)
+Spanish (United States), female/male: es-US (Standard-A, Standard-B, Standard-C, Wavenet-A, Wavenet-B, Wavenet-C, News-G, News-F, News-E, News-D, Studio-B, Neural2-A, Neural2-B, Neural2-C, Polyglot-1)
+Swedish (Sweden), female/male: sv-SE (Standard-B, Standard-C, Standard-D, Standard-E, Standard-A, Wavenet-B, Wavenet-D, Wavenet-C, Wavenet-E, Wavenet-A)
+Tamil (India), female/male: ta-IN (Standard-C, Standard-D, Standard-A, Standard-B, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D)
+Telugu (India), female/male: te-IN (Standard-A, Standard-B)
+Thai (Thailand), female: th-TH (Standard-A, Neural2-C)
+Turkish (Turkey), female/male: tr-TR (Standard-B, Standard-C, Standard-D, Standard-A, Standard-E, Wavenet-B, Wavenet-C, Wavenet-D, Wavenet-E, Wavenet-A)
+Ukrainian (Ukraine), female: uk-UA (Standard-A, Wavenet-A)
+Vietnamese (Vietnam), female/male: vi-VN (Standard-A, Standard-B, Standard-C, Standard-D, Wavenet-A, Wavenet-B, Wavenet-C, Wavenet-D, Neural2-A, Neural2-D)
+
+
+===================================================
+
+
+
+
+* Amazon Polly *
+Arabic, female: ar-SA (Zeina)
+Arabic (Gulf), female: ar-AE (Hala)
+Catalan, female: ca-ES (Arlet)
+Chinese (Cantonese, Simplified), female: yue-CN (Hiujin)
+Chinese (Simplified), female: zh-CN (Zhiyu)
+Danish, female/male: da-DK (Mads, Naja)
+Dutch, female/male: nl-NL (Laura, Lotte, Ruben)
+English (Australia), female/male: en-AU (Nicole, Olivia, Russell)
+English (Great Britain), female/male: en-GB (Amy, Arthur, Brian, Emma, Geraint)
+English (India), female: en-IN (Kajal, Raveena)
+English (New Zealand), female: en-NZ (Aria)
+English (South Africa), female: en-ZA (Ayanda)
+English (United States), female/male: en-US (Ivy, Joey, Justin, Joanna, Kendra, Kevin, Kimberly, Matthew, Salli)
+Finnish, female: fi-FI (Suvi)
+French (Canada), female/male: fr-CA (Chantal, Gabrielle, Liam)
+French (France), female/male: fr-FR (Celine, Lea, Mathieu)
+German (Austria), female: de-AT (Hannah)
+German (Germany), female/male: de-DE (Daniel, Hans, Marlene, Vicki)
+Hindi, female: hi-IN (Aditi, Kajal)
+Icelandic, female/male: is-IS (Dora, Karl)
+Italian, female/male: it-IT (Bianca, Carla, Giorgio)
+Japanese, female/male: ja-JP (Mizuki, Takumi)
+Korean, female: ko-KR (Seoyeon)
+Norwegian (Bokmal), female: nb-NO (Ida, Liv)
+Polish, female/male: pl-PL (Ewa, Jacek, Jan, Maja, Ola)
+Portuguese (Brazil), female/male: pt-BR (Camila, Ricardo, Vitoria)
+Portuguese (Portugal), female/male: pt-PT (Cristiano, Ines)
+Romanian, female: ro-RO (Carmen)
+Russian, female/male: ru-RU (Maxim, Tatyana)
+Spanish (European), female/male: es-ES (Conchita, Enrique, Lucia)
+Spanish (Mexican), female: es-MX (Mia)
+Spanish (North American), female/male: es-US (Lupe, Miguel, Pedro, Penelope)
+Swedish, female: sv-SE (Astrid, Elin)
+Turkish, female: tr-TR (Filiz)
+Welsh, female: cy-GB (Gwyneth)
+
+
+===================================================
+
+
+
+* Baidu TTS *
+Arabic: ar-SA
+Cantonese: yue-HK
+Chinese (Simplified): zh-CN
+English (Great Britain): en-GB
+English (United States): en-US
+French: fr-FR
+German: de-DE
+Japanese: ja-JP
+Korean: ko-KR
+Portuguese: pt-PT
+Russian: ru-RU
+Spanish: es-ES
+Thai: th-TH
+
+
+===================================================
+
+
+
+* CereProc TTS *
+Catalan, female: ca-ES (Rita)
+Chinese (Simplified), female: zh-CN (Mailin)
+Danish, female: da-DK (Marie)
+Dutch, female: nl-NL (Ada)
+English (Ireland), female: en-IE (Caitlin)
+English (Great Britain), female/male: en-GB (Amy, Andrew, Claire, Demon, Dodo, Giles, Goblin, Heather, Jack, Jess, Kirsty, Lauren, Lily, Mairi, Nicole, Robot, Sarah, Stuart, William)
+English (United States), female/male/neutral: en-US (Adam, Andy, Carolyn, Ghost, Hannah, Jordan, Katherine, Megan, Nathan, Sam)
+French (Canada), female: fr-CA (Florence)
+French (France), female/male: fr-FR (Laurent, Suzanne)
+Gaelic (Scotland), female: gd-GB (Ceitidh)
+German (Austria), male: de-AT (Leopold)
+German (Germany), female/male: de-DE (Alex, Gudrun)
+Irish, female: ga-IE (Peig)
+Italian, female/male: it-IT (Dario, Francesco, Laura, Nicoletta)
+Japanese, female: ja-JP (Yuki)
+Lithuanian, female/male: lt-LT (Egle, Mantas)
+Norwegian (Bokmal), female: nb-NO (Clara)
+Norwegian (Nynorsk), female: nn-NO (Hulda)
+Polish, female: pl-PL (Pola)
+Portuguese (Brazil), male: pt-BR (Gabriel)
+Portuguese (Portugal), female: pt-PT (Lucia)
+Romanian, female: ro-RO (Daria)
+Russian, female: ru-RU (Avrora)
+Spanish (Mexico), female: es-MX (Ana)
+Spanish (Spain), female: es-ES (Sara)
+Swedish, female: sv-SE (Ylva)
+
+
+===================================================
+
+
+
+
+
+* IBM Watson TTS *
+Dutch (Netherlands), female: nl-NL (Merel)
+English (Australia), female/male: en-AU (HeidiExpressive, JackExpressive)
+English (Great Britain), female/male: en-GB (Charlotte, James, Kate)
+English (United States), female/male: en-US (Allison, AllisonExpressive, Emily, EmmaExpressive, Henry, Kevin, Lisa, LisaExpressive, Michael, MichaelExpressive, Olivia)
+French (Canada), female: fr-CA (Louise)
+French (France), female/male: fr-FR (Nicolas, Renee)
+German, female/male: de-DE (Birgit, Dieter, Erika)
+Italian, female: it-IT (Francesca)
+Japanese, female: ja-JP (Emi)
+Korean, male: ko-KR (Jin)
+Portuguese (Brazil), female: pt-BR (Isabela)
+Spanish (European), female/male: es-ES (Enrique, Laura)
+Spanish (Latin American), female: es-LA (Sofia)
+Spanish (North American), female: es-US (Sofia)
+
+
+===================================================
+
+
+
+
+* Microsoft Azure (with subscription key only) *
+Afrikaans (South Africa), female/male: af-ZA (Adri, Willem)
+Albanian (Albania), female/male: sq-AL (Anila, Ilir)
+Amharic (Ethiopia), female/male: am-ET (Mekdes, Ameha)
+Arabic (Algeria), female/male: ar-DZ (Amina, Ismael)
+Arabic (Bahrain), female/male: ar-BH (Laila, Ali)
+Arabic (Egypt), female/male: ar-EG (Salma, Shakir)
+Arabic (Iraq), female/male: ar-IQ (Rana, Bassel)
+Arabic (Jordan), female/male: ar-JO (Sana, Taim)
+Arabic (Kuwait), female/male: ar-KW (Noura, Fahed)
+Arabic (Lebanon), female/male: ar-LB (Layla, Rami)
+Arabic (Libya), female/male: ar-LY (Iman, Omar)
+Arabic (Morocco), female/male: ar-MA (Mouna, Jamal)
+Arabic (Oman), female/male: ar-OM (Aysha, Abdullah)
+Arabic (Qatar), female/male: ar-QA (Amal, Moaz)
+Arabic (Saudi Arabia), female/male: ar-SA (Zariyah, Hamed)
+Arabic (Syria), female/male: ar-SY (Amany, Laith)
+Arabic (Tunisia), female/male: ar-TN (Reem, Hedi)
+Arabic (United Arab Emirates), female/male: ar-AE (Fatima, Hamdan)
+Arabic (Yemen), female/male: ar-YE (Maryam, Saleh)
+Armenian (Armenia), female/male: hy-AM (Anahit, Hayk)
+Azerbaijani (Azerbaijan), female/male: az-AZ (Babek, Banu)
+Bangla (Bangladesh), female/male: bn-BD (Nabanita, Pradeep)
+Basque, female/male: eu-ES (Ainhoa, Ander)
+Bengali (India), female/male: bn-IN (Tanishaa, Bashkar)
+Bosnian (Bosnia and Herzegovina), female/male: bs-BA (Vesna, Goran)
+Bulgarian (Bulgaria), female/male: bg-BG (Kalina, Borislav)
+Burmese (Myanmar), female/male: my-MM (Nilar, Thiha)
+Catalan (Spain), female/male: ca-ES (Alba, Joana, Enric)
+Chinese (Cantonese, Traditional), female/male: zh-HK (HiuGaai, HiuMaan, WanLung)
+Chinese (Simplified), female/male: zh-CN (Xiaochen, Xiaohan, Xiaomeng, Xiaomo, Xiaoqiu, Xiaorui, Xiaoshuang, Xiaoxiao, Xiaoxuan, Xiaoyan, Xiaoyi, Xiaoyou, Xiaozhen, Yunfeng, Yunhao, Yunjian, Yunxi, Yunxia, Yunyang, Yunye, Yunze)
+Chinese (Traditional), female/male: zh-TW (HsiaoChen, HsiaoYu, YunJhe)
+Chinese (Wu, Simplified), female/male: wuu-CN (Xiaotong, Yunzhe)
+Chinese (Cantonese, Simplified), female/male: yue-CN (XiaoMin, YunSong)
+Chinese (Zhongyuan Mandarin Henan, Simplified), male: zh-CN-henan (Yundeng)
+Chinese (Northeastern Mandarin, Simplified), female: zh-CN-liaoning (Xiaobei)
+Chinese (Zhongyuan Mandarin Shaanxi, Simplified), female: zh-CN-shaanxi (Xiaoni)
+Chinese (Jilu Mandarin, Simplified), male: zh-CN-shandong (Yunxiang)
+Chinese (Southwestern Mandarin, Simplified), male: zh-CN-sichuan (Yunxi)
+Croatian (Croatia), female/male: hr-HR (Gabrijela, Srecko)
+Czech (Czech Republic), female/male: cs-CZ (Vlasta, Antonin)
+Danish (Denmark), female/male: da-DK (Christel, Jeppe)
+Dutch (Belgium), female/male: nl-BE (Dena, Arnaud)
+Dutch (Netherlands), female/male: nl-NL (Colette, Fenna, Maarten)
+English (Australia), female/male: en-AU (Natasha, William, Annette, Carly, Darren, Duncan, Elsie, Freya, Joanne, Ken, Kim, Neil, Tim, Tina)
+English (Canada), female/male: en-CA (Clara, Liam)
+English (Hong Kong), female/male: en-HK (Yan, Sam)
+English (India), female/male: en-IN (Neerja, Prabhat)
+English (Ireland), female/male: en-IE (Emily, Connor)
+English (Kenya), female/male: en-KE (Asilia, Chilemba)
+English (New Zealand), female/male: en-NZ (Molly, Mitchell)
+English (Nigeria), female/male: en-NG (Ezinne, Abeo)
+English (Philippines), female/male: en-PH (Rosa, James)
+English (Singapore), female/male: en-SG (Luna, Wayne)
+English (South Africa), female/male: en-ZA (Leah, Luke)
+English (Tanzania), female/male: en-TZ (Imani, Elimu)
+English (United Kingdom), female/male: en-GB (Abbi, Bella, Hollie, Libby, Maisie, Olivia, Sonia, Alfie, Elliot, Ethan, Noah, Oliver, Ryan, Thomas)
+English (United States), female/male: en-US (AIGenerate1, AIGenerate2, Amber, Aria, Ashley, Cora, Davis, Elizabeth, Jenny, JennyMultilingual, Michelle, Monica, Nancy, Sara, Ana, Brandon, Christopher, Eric, Guy, Jacob, Jane, Jason, Roger, Steffan, Tony)
+Estonian (Estonia), female/male: et-EE (Anu, Kert)
+Filipino (Philippines), female/male: fil-PH (Blessica, Angelo)
+Finnish (Finland), female/male: fi-FI (Noora, Selma, Harri)
+French (Belgium), female/male: fr-BE (Charline, Gerard)
+French (Canada), female/male: fr-CA (Sylvie, Antoine, Jean)
+French (France), female/male: fr-FR (Brigitte, Celeste, Coralie, Denise, Eloise, Jacqueline, Josephine, Yvette, Alain, Claude, Henri, Jerome, Maurice, Yves)
+French (Switzerland), female/male: fr-CH (Ariane, Fabrice)
+Galician (Spain), female/male: gl-ES (Sabela, Roi)
+Georgian (Georgia), female/male: ka-GE (Eka, Eka)
+German (Austria), female/male: de-AT (Ingrid, Jonas)
+German (Germany), female/male: de-DE (Amala, Elke, Gisela, Katja, Klarissa, Louisa, Maja, Tanja, Bernd, Christoph, Conrad, Kasper, Killian, Klaus, Ralf)
+German (Switzerland), female/male: de-CH (Leni, Jan)
+Greek (Greece), female/male: el-GR (Athina, Nestoras)
+Gujarati (India), female/male: gu-IN (Dhwani, Niranjan)
+Hebrew (Israel), female/male: he-IL (Hila, Avri)
+Hindi (India), female/male: hi-IN (Swara, Madhur)
+Hungarian (Hungary), female/male: hu-HU (Noemi, Tamas)
+Icelandic (Iceland), female/male: is-IS (Gudrun, Gunnar)
+Indonesian (Indonesia), female/male: id-ID (Gadis, Ardi)
+Irish (Ireland), female/male: ga-IE (Orla, Colm)
+Italian (Italy), female/male: it-IT (Elsa, Isabella, Diego, Benigno, Calimero, Cataldo, Fabiola, Fiamma, Gianni, Imelda, Irma, Lisandro, Palmira, Pierina, Rinaldo)
+Japanese (Japan), female/male: ja-JP (Nanami, Keita, Aoi, Daichi, Mayu, Naoki, Shiori)
+Javanese (Indonesia), female/male: jv-ID (Siti, Dimas)
+Kannada (India), female/male: kn-IN (Sapna, Gagan)
+Kazakh (Kazakhstan), female/male: kk-KZ (Aigul, Daulet)
+Khmer (Cambodia), female/male: km-KH (Sreymom, Piseth)
+Korean (South Korea), female/male: ko-KR (SunHi, InJoon, BongJin, GookMin, JiMin, SeoHyeon, SoonBok, YuJin)
+Lao (Laos), female/male: lo-LA (Keomany, Chanthavong)
+Latvian (Latvia), female/male: lv-LV (Everita, Nils)
+Lithuanian (Lithuania), female/male: lt-LT (Ona, Leonas)
+Macedonian (Republic of North Macedonia), female/male: mk-MK (Marija, Aleksandar)
+Malay (Malaysia), female/male: ms-MY (Yasmin, Osman)
+Malayalam (India), female/male: ml-IN (Sobhana, Midhun)
+Maltese (Malta), female/male: mt-MT (Grace, Joseph)
+Marathi (India), female/male: mr-IN (Aarohi, Manohar)
+Mongolian (Mongolia), female/male: mn-MN (Yesui, Bataa)
+Nepali (Nepal), female/male: ne-NP (Hemkala, Sagar)
+Norwegian (Norway), female/male: nb-NO (Iselin, Pernille, Finn)
+Pashto (Afghanistan), female/male: ps-AF (Latifa, GulNawaz)
+Persian (Iran), female/male: fa-IR (Dilara, Farid)
+Polish (Poland), female/male: pl-PL (Agnieszka, Zofia, Marek)
+Portuguese (Brazil), female/male: pt-BR (Francisca, Antonio, Brenda, Donato, Elza, Fabio, Giovanna, Humberto, Julio, Leila, Leticia, Manuela, Nicolau, Valerio, Yara)
+Portuguese (Portugal), female/male: pt-PT (Fernanda, Raquel, Duarte)
+Romanian (Romania), female/male: ro-RO (Alina, Emil)
+Russian (Russia), female/male: ru-RU (Dariya, Svetlana, Dmitry)
+Serbian (Cyrillic, Serbia), female/male: sr-RS (Sophie, Nicholas)
+Sinhala (Sri Lanka), female/male: si-LK (Thilini, Sameera)
+Slovak (Slovakia), female/male: sk-SK (Viktoria, Lukas)
+Slovenian (Slovenia), female/male: sl-SI (Petra, Rok)
+Somali (Somalia), female/male: so-SO (Ubax, Muuse)
+Spanish (Argentina), female/male: es-AR (Elena, Tomas)
+Spanish (Bolivia), female/male: es-BO (Sofia, Marcelo)
+Spanish (Chile), female/male: es-CL (Catalina, Lorenzo)
+Spanish (Colombia), female/male: es-CO (Salome, Gonzalo)
+Spanish (Costa Rica), female/male: es-CR (Maria, Juan)
+Spanish (Cuba), female/male: es-CU (Belkys, Manuel)
+Spanish (Dominican Republic), female/male: es-DO (Ramona, Emilio)
+Spanish (Ecuador), female/male: es-EC (Andrea, Luis)
+Spanish (El Salvador), female/male: es-SV (Lorena, Rodrigo)
+Spanish (Equatorial Guinea), female/male: es-GQ (Teresa, Javier)
+Spanish (Guatemala), female/male: es-GT (Marta, Andres)
+Spanish (Honduras), female/male: es-HN (Karla, Carlos)
+Spanish (Mexico), female/male: es-MX (Dalia, Jorge, Beatriz, Candela, Carlota, Cecilio, Gerardo, Larissa, Liberto, Luciano, Marina, Nuria, Pelayo, Renata, Yago)
+Spanish (Nicaragua), female/male: es-NI (Yolanda, Federico)
+Spanish (Panama), female/male: es-PA (Margarita, Roberto)
+Spanish (Paraguay), female/male: es-PY (Tania, Mario)
+Spanish (Peru), female/male: es-PE (Camila, Alex)
+Spanish (Puerto Rico), female/male: es-PR (Karina, Victor)
+Spanish (Spain), female/male: es-ES (Elvira, Abril, Alvaro, Arnau, Dario, Elias, Estrella, Irene, Laia, Lia, Nil, Saul, Teo, Triana, Vera)
+Spanish (Uruguay), female/male: es-UY (Valentina, Mateo)
+Spanish (United States), female/male: es-US (Paloma, Alonso)
+Spanish (Venezuela), female/male: es-VE (Paola, Sebastian)
+Sundanese (Indonesia), female/male: su-ID (Tuti, Jajang)
+Kiswahili (Kenya), female/male: sw-KE (Zuri, Rafiki)
+Kiswahili (Tanzania), female/male: sw-TZ (Rehema, Daudi)
+Swedish (Sweden), female/male: sv-SE (Hillevi, Sofie, Mattias)
+Tamil (India), female/male: ta-IN (Pallavi, Valluvar)
+Tamil (Malaysia), female/male: ta-MY (Kani, Surya)
+Tamil (Singapore), female/male: ta-SG (Venba, Anbu)
+Tamil (Sri Lanka), female/male: ta-LK (Saranya, Kumar)
+Telugu (India), female/male: te-IN (Shruti, Mohan)
+Thai (Thailand), female/male: th-TH (Achara, Premwadee, Niwat)
+Turkish (Turkey), female/male: tr-TR (Emel, Ahmet)
+Ukrainian (Ukraine), female/male: uk-UA (Polina, Ostap)
+Urdu (India), female/male: ur-IN (Gul, Salman)
+Urdu (Pakistan), female/male: ur-PK (Uzma, Asad)
+Uzbek (Uzbekistan), female/male: uz-UZ (Madina, Sardor)
+Vietnamese (Vietnam), female/male: vi-VN (HoaiMy, NamMinh)
+Welsh (United Kingdom), female/male: cy-GB (Nia, Aled)
+Zulu (South Africa), female/male: zu-ZA (Thando, Themba)
+
+* Microsoft Azure (free demo, HTTPS) *
+Afrikaans (South Africa): af-ZA (Adri, Willem)
+Albanian (Albania): sq-AL (Anila, Ilir)
+Amharic (Ethiopia): am-ET (Mekdes, Ameha)
+Arabic (Algeria): ar-DZ (Amina, Ismael)
+Arabic (Bahrain): ar-BH (Laila, Ali)
+Arabic (Egypt): ar-EG (Salma, Shakir)
+Arabic (Iraq): ar-IQ (Rana, Bassel)
+Arabic (Jordan): ar-JO (Sana, Taim)
+Arabic (Kuwait): ar-KW (Noura, Fahed)
+Arabic (Lebanon): ar-LB (Layla, Rami)
+Arabic (Libya): ar-LY (Iman, Omar)
+Arabic (Morocco): ar-MA (Mouna, Jamal)
+Arabic (Oman): ar-OM (Aysha, Abdullah)
+Arabic (Qatar): ar-QA (Amal, Moaz)
+Arabic (Saudi Arabia): ar-SA (Zariyah, Hamed)
+Arabic (Syria): ar-SY (Amany, Laith)
+Arabic (Tunisia): ar-TN (Reem, Hedi)
+Arabic (United Arab Emirates): ar-AE (Fatima, Hamdan)
+Arabic (Yemen): ar-YE (Maryam, Saleh)
+Azerbaijani (Azerbaijan): az-AZ (Babek, Banu)
+Bangla (Bangladesh): bn-BD (Nabanita, Pradeep)
+Bengali (India): bn-IN (Tanishaa, Bashkar)
+Bosnian (Bosnia and Herzegovina): bs-BA (Vesna, Goran)
+Bulgarian (Bulgaria): bg-BG (Kalina, Borislav)
+Burmese (Myanmar): my-MM (Nilar, Thiha)
+Catalan (Spain): ca-ES (Joana, Enric)
+Chinese (Cantonese, Traditional): zh-HK (HiuGaai, HiuMaan, WanLung)
+Chinese (Simplified): zh-CN (Xiaoxiao, Xiaoyi, Yunjian, Yunxi, Yunxia, Yunyang)
+Chinese (Traditional): zh-TW (HsiaoChen, HsiaoYu, YunJhe)
+Chinese (Northeastern Mandarin, Simplified): zh-CN-liaoning (Xiaobei)
+Chinese (Zhongyuan Mandarin Shaanxi, Simplified): zh-CN-shaanxi (Xiaoni)
+Croatian (Croatia): hr-HR (Gabrijela, Srecko)
+Czech (Czech Republic): cs-CZ (Vlasta, Antonin)
+Danish (Denmark): da-DK (Christel, Jeppe)
+Dutch (Belgium): nl-BE (Dena, Arnaud)
+Dutch (Netherlands): nl-NL (Colette, Fenna, Maarten)
+English (Australia): en-AU (Natasha, William)
+English (Canada): en-CA (Clara, Liam)
+English (Hong Kong): en-HK (Yan, Sam)
+English (India): en-IN (Neerja, Prabhat)
+English (Ireland): en-IE (Emily, Connor)
+English (Kenya): en-KE (Asilia, Chilemba)
+English (New Zealand): en-NZ (Molly, Mitchell)
+English (Nigeria): en-NG (Ezinne, Abeo)
+English (Philippines): en-PH (Rosa, James)
+English (Singapore): en-SG (Luna, Wayne)
+English (South Africa): en-ZA (Leah, Luke)
+English (Tanzania): en-TZ (Imani, Elimu)
+English (United Kingdom): en-GB (Libby, Maisie, Sonia, Ryan, Thomas)
+English (United States): en-US (Amber, Aria, Ashley, Cora, Elizabeth, Jenny, Michelle, Monica, Ana, Brandon, Christopher, Eric, Guy, Jacob, Roger, Steffan)
+Estonian (Estonia): et-EE (Anu, Kert)
+Filipino (Philippines): fil-PH (Blessica, Angelo)
+Finnish (Finland): fi-FI (Noora, Selma, Harri)
+French (Belgium): fr-BE (Charline, Gerard)
+French (Canada): fr-CA (Sylvie, Antoine, Jean)
+French (France): fr-FR (Denise, Eloise, Henri)
+French (Switzerland): fr-CH (Ariane, Fabrice)
+Galician (Spain): gl-ES (Sabela, Roi)
+Georgian (Georgia): ka-GE (Eka, Eka)
+German (Austria): de-AT (Ingrid, Jonas)
+German (Germany): de-DE (Amala, Katja, Conrad, Killian)
+German (Switzerland): de-CH (Leni, Jan)
+Greek (Greece): el-GR (Athina, Nestoras)
+Gujarati (India): gu-IN (Dhwani, Niranjan)
+Hebrew (Israel): he-IL (Hila, Avri)
+Hindi (India): hi-IN (Swara, Madhur)
+Hungarian (Hungary): hu-HU (Noemi, Tamas)
+Icelandic (Iceland): is-IS (Gudrun, Gunnar)
+Indonesian (Indonesia): id-ID (Gadis, Ardi)
+Irish (Ireland): ga-IE (Orla, Colm)
+Italian (Italy): it-IT (Elsa, Isabella, Diego)
+Japanese (Japan): ja-JP (Nanami, Keita)
+Javanese (Indonesia): jv-ID (Siti, Dimas)
+Kannada (India): kn-IN (Sapna, Gagan)
+Kazakh (Kazakhstan): kk-KZ (Aigul, Daulet)
+Khmer (Cambodia): km-KH (Sreymom, Piseth)
+Korean (South Korea): ko-KR (SunHi, InJoon)
+Lao (Laos): lo-LA (Keomany, Chanthavong)
+Latvian (Latvia): lv-LV (Everita, Nils)
+Lithuanian (Lithuania): lt-LT (Ona, Leonas)
+Macedonian (Republic of North Macedonia): mk-MK (Marija, Aleksandar)
+Malay (Malaysia): ms-MY (Yasmin, Osman)
+Malayalam (India): ml-IN (Sobhana, Midhun)
+Maltese (Malta): mt-MT (Grace, Joseph)
+Marathi (India): mr-IN (Aarohi, Manohar)
+Mongolian (Mongolia): mn-MN (Yesui, Bataa)
+Nepali (Nepal): ne-NP (Hemkala, Sagar)
+Norwegian (Norway): nb-NO (Iselin, Pernille, Finn)
+Pashto (Afghanistan): ps-AF (Latifa, GulNawaz)
+Persian (Iran): fa-IR (Dilara, Farid)
+Polish (Poland): pl-PL (Zofia, Marek)
+Portuguese (Brazil): pt-BR (Francisca, Antonio)
+Portuguese (Portugal): pt-PT (Fernanda, Raquel, Duarte)
+Romanian (Romania): ro-RO (Alina, Emil)
+Russian (Russia): ru-RU (Dariya, Svetlana, Dmitry)
+Serbian (Cyrillic, Serbia): sr-RS (Sophie, Nicholas)
+Sinhala (Sri Lanka): si-LK (Thilini, Sameera)
+Slovak (Slovakia): sk-SK (Viktoria, Lukas)
+Slovenian (Slovenia): sl-SI (Petra, Rok)
+Somali (Somalia): so-SO (Ubax, Muuse)
+Spanish (Argentina): es-AR (Elena, Tomas)
+Spanish (Bolivia): es-BO (Sofia, Marcelo)
+Spanish (Chile): es-CL (Catalina, Lorenzo)
+Spanish (Colombia): es-CO (Salome, Gonzalo)
+Spanish (Costa Rica): es-CR (Maria, Juan)
+Spanish (Cuba): es-CU (Belkys, Manuel)
+Spanish (Dominican Republic): es-DO (Ramona, Emilio)
+Spanish (Ecuador): es-EC (Andrea, Luis)
+Spanish (El Salvador): es-SV (Lorena, Rodrigo)
+Spanish (Equatorial Guinea): es-GQ (Teresa, Javier)
+Spanish (Guatemala): es-GT (Marta, Andres)
+Spanish (Honduras): es-HN (Karla, Carlos)
+Spanish (Mexico): es-MX (Dalia, Jorge)
+Spanish (Nicaragua): es-NI (Yolanda, Federico)
+Spanish (Panama): es-PA (Margarita, Roberto)
+Spanish (Paraguay): es-PY (Tania, Mario)
+Spanish (Peru): es-PE (Camila, Alex)
+Spanish (Puerto Rico): es-PR (Karina, Victor)
+Spanish (Spain): es-ES (Elvira, Alvaro)
+Spanish (Uruguay): es-UY (Valentina, Mateo)
+Spanish (United States): es-US (Paloma, Alonso)
+Spanish (Venezuela): es-VE (Paola, Sebastian)
+Sundanese (Indonesia): su-ID (Tuti, Jajang)
+Kiswahili (Kenya): sw-KE (Zuri, Rafiki)
+Kiswahili (Tanzania): sw-TZ (Rehema, Daudi)
+Swedish (Sweden): sv-SE (Hillevi, Sofie, Mattias)
+Tamil (India): ta-IN (Pallavi, Valluvar)
+Tamil (Malaysia): ta-MY (Kani, Surya)
+Tamil (Singapore): ta-SG (Venba, Anbu)
+Tamil (Sri Lanka): ta-LK (Saranya, Kumar)
+Telugu (India): te-IN (Shruti, Mohan)
+Thai (Thailand): th-TH (Achara, Premwadee, Niwat)
+Turkish (Turkey): tr-TR (Emel, Ahmet)
+Ukrainian (Ukraine): uk-UA (Polina, Ostap)
+Urdu (India): ur-IN (Gul, Salman)
+Urdu (Pakistan): ur-PK (Uzma, Asad)
+Uzbek (Uzbekistan): uz-UZ (Madina, Sardor)
+Vietnamese (Vietnam): vi-VN (HoaiMy, NamMinh)
+Welsh (United Kingdom): cy-GB (Nia, Aled)
+Zulu (South Africa): zu-ZA (Thando, Themba)
+
+* Microsoft Azure (free demo, WebSocket) *
+Afrikaans (South Africa): af-ZA (Adri, Willem)
+Albanian (Albania): sq-AL (Anila, Ilir)
+Amharic (Ethiopia): am-ET (Mekdes, Ameha)
+Arabic (Algeria): ar-DZ (Amina, Ismael)
+Arabic (Bahrain): ar-BH (Laila, Ali)
+Arabic (Egypt): ar-EG (Salma, Shakir)
+Arabic (Iraq): ar-IQ (Rana, Bassel)
+Arabic (Jordan): ar-JO (Sana, Taim)
+Arabic (Kuwait): ar-KW (Noura, Fahed)
+Arabic (Lebanon): ar-LB (Layla, Rami)
+Arabic (Libya): ar-LY (Iman, Omar)
+Arabic (Morocco): ar-MA (Mouna, Jamal)
+Arabic (Oman): ar-OM (Aysha, Abdullah)
+Arabic (Qatar): ar-QA (Amal, Moaz)
+Arabic (Saudi Arabia): ar-SA (Zariyah, Hamed)
+Arabic (Syria): ar-SY (Amany, Laith)
+Arabic (Tunisia): ar-TN (Reem, Hedi)
+Arabic (United Arab Emirates): ar-AE (Fatima, Hamdan)
+Arabic (Yemen): ar-YE (Maryam, Saleh)
+Azerbaijani (Azerbaijan): az-AZ (Babek, Banu)
+Bangla (Bangladesh): bn-BD (Nabanita, Pradeep)
+Bengali (India): bn-IN (Tanishaa, Bashkar)
+Bosnian (Bosnia and Herzegovina): bs-BA (Vesna, Goran)
+Bulgarian (Bulgaria): bg-BG (Kalina, Borislav)
+Burmese (Myanmar): my-MM (Nilar, Thiha)
+Catalan (Spain): ca-ES (Joana, Enric)
+Chinese (Cantonese, Traditional): zh-HK (HiuGaai, HiuMaan, WanLung)
+Chinese (Simplified): zh-CN (Xiaoxiao, Xiaoyi, Yunjian, Yunxi, Yunxia, Yunyang)
+Chinese (Traditional): zh-TW (HsiaoChen, HsiaoYu, YunJhe)
+Chinese (Northeastern Mandarin, Simplified): zh-CN-liaoning (Xiaobei)
+Chinese (Zhongyuan Mandarin Shaanxi, Simplified): zh-CN-shaanxi (Xiaoni)
+Croatian (Croatia): hr-HR (Gabrijela, Srecko)
+Czech (Czech Republic): cs-CZ (Vlasta, Antonin)
+Danish (Denmark): da-DK (Christel, Jeppe)
+Dutch (Belgium): nl-BE (Dena, Arnaud)
+Dutch (Netherlands): nl-NL (Colette, Fenna, Maarten)
+English (Australia): en-AU (Natasha, William)
+English (Canada): en-CA (Clara, Liam)
+English (Hong Kong): en-HK (Yan, Sam)
+English (India): en-IN (Neerja, Prabhat)
+English (Ireland): en-IE (Emily, Connor)
+English (Kenya): en-KE (Asilia, Chilemba)
+English (New Zealand): en-NZ (Molly, Mitchell)
+English (Nigeria): en-NG (Ezinne, Abeo)
+English (Philippines): en-PH (Rosa, James)
+English (Singapore): en-SG (Luna, Wayne)
+English (South Africa): en-ZA (Leah, Luke)
+English (Tanzania): en-TZ (Imani, Elimu)
+English (United Kingdom): en-GB (Libby, Maisie, Sonia, Ryan, Thomas)
+English (United States): en-US (Aria, Jenny, Michelle, Ana, Christopher, Eric, Guy, Roger, Steffan)
+Estonian (Estonia): et-EE (Anu, Kert)
+Filipino (Philippines): fil-PH (Blessica, Angelo)
+Finnish (Finland): fi-FI (Noora, Harri)
+French (Belgium): fr-BE (Charline, Gerard)
+French (Canada): fr-CA (Sylvie, Antoine, Jean)
+French (France): fr-FR (Denise, Eloise, Henri)
+French (Switzerland): fr-CH (Ariane, Fabrice)
+Galician (Spain): gl-ES (Sabela, Roi)
+Georgian (Georgia): ka-GE (Eka, Eka)
+German (Austria): de-AT (Ingrid, Jonas)
+German (Germany): de-DE (Amala, Katja, Conrad, Killian)
+German (Switzerland): de-CH (Leni, Jan)
+Greek (Greece): el-GR (Athina, Nestoras)
+Gujarati (India): gu-IN (Dhwani, Niranjan)
+Hebrew (Israel): he-IL (Hila, Avri)
+Hindi (India): hi-IN (Swara, Madhur)
+Hungarian (Hungary): hu-HU (Noemi, Tamas)
+Icelandic (Iceland): is-IS (Gudrun, Gunnar)
+Indonesian (Indonesia): id-ID (Gadis, Ardi)
+Irish (Ireland): ga-IE (Orla, Colm)
+Italian (Italy): it-IT (Elsa, Isabella, Diego)
+Japanese (Japan): ja-JP (Nanami, Keita)
+Javanese (Indonesia): jv-ID (Siti, Dimas)
+Kannada (India): kn-IN (Sapna, Gagan)
+Kazakh (Kazakhstan): kk-KZ (Aigul, Daulet)
+Khmer (Cambodia): km-KH (Sreymom, Piseth)
+Korean (South Korea): ko-KR (SunHi, InJoon)
+Lao (Laos): lo-LA (Keomany, Chanthavong)
+Latvian (Latvia): lv-LV (Everita, Nils)
+Lithuanian (Lithuania): lt-LT (Ona, Leonas)
+Macedonian (Republic of North Macedonia): mk-MK (Marija, Aleksandar)
+Malay (Malaysia): ms-MY (Yasmin, Osman)
+Malayalam (India): ml-IN (Sobhana, Midhun)
+Maltese (Malta): mt-MT (Grace, Joseph)
+Marathi (India): mr-IN (Aarohi, Manohar)
+Mongolian (Mongolia): mn-MN (Yesui, Bataa)
+Nepali (Nepal): ne-NP (Hemkala, Sagar)
+Norwegian (Norway): nb-NO (Pernille, Finn)
+Pashto (Afghanistan): ps-AF (Latifa, GulNawaz)
+Persian (Iran): fa-IR (Dilara, Farid)
+Polish (Poland): pl-PL (Zofia, Marek)
+Portuguese (Brazil): pt-BR (Francisca, Antonio)
+Portuguese (Portugal): pt-PT (Raquel, Duarte)
+Romanian (Romania): ro-RO (Alina, Emil)
+Russian (Russia): ru-RU (Svetlana, Dmitry)
+Serbian (Cyrillic, Serbia): sr-RS (Sophie, Nicholas)
+Sinhala (Sri Lanka): si-LK (Thilini, Sameera)
+Slovak (Slovakia): sk-SK (Viktoria, Lukas)
+Slovenian (Slovenia): sl-SI (Petra, Rok)
+Somali (Somalia): so-SO (Ubax, Muuse)
+Spanish (Argentina): es-AR (Elena, Tomas)
+Spanish (Bolivia): es-BO (Sofia, Marcelo)
+Spanish (Chile): es-CL (Catalina, Lorenzo)
+Spanish (Colombia): es-CO (Salome, Gonzalo)
+Spanish (Costa Rica): es-CR (Maria, Juan)
+Spanish (Cuba): es-CU (Belkys, Manuel)
+Spanish (Dominican Republic): es-DO (Ramona, Emilio)
+Spanish (Ecuador): es-EC (Andrea, Luis)
+Spanish (El Salvador): es-SV (Lorena, Rodrigo)
+Spanish (Equatorial Guinea): es-GQ (Teresa, Javier)
+Spanish (Guatemala): es-GT (Marta, Andres)
+Spanish (Honduras): es-HN (Karla, Carlos)
+Spanish (Mexico): es-MX (Dalia, Jorge)
+Spanish (Nicaragua): es-NI (Yolanda, Federico)
+Spanish (Panama): es-PA (Margarita, Roberto)
+Spanish (Paraguay): es-PY (Tania, Mario)
+Spanish (Peru): es-PE (Camila, Alex)
+Spanish (Puerto Rico): es-PR (Karina, Victor)
+Spanish (Spain): es-ES (Elvira, Alvaro)
+Spanish (Uruguay): es-UY (Valentina, Mateo)
+Spanish (United States): es-US (Paloma, Alonso)
+Spanish (Venezuela): es-VE (Paola, Sebastian)
+Sundanese (Indonesia): su-ID (Tuti, Jajang)
+Kiswahili (Kenya): sw-KE (Zuri, Rafiki)
+Kiswahili (Tanzania): sw-TZ (Rehema, Daudi)
+Swedish (Sweden): sv-SE (Sofie, Mattias)
+Tamil (India): ta-IN (Pallavi, Valluvar)
+Tamil (Malaysia): ta-MY (Kani, Surya)
+Tamil (Singapore): ta-SG (Venba, Anbu)
+Tamil (Sri Lanka): ta-LK (Saranya, Kumar)
+Telugu (India): te-IN (Shruti, Mohan)
+Thai (Thailand): th-TH (Premwadee, Niwat)
+Turkish (Turkey): tr-TR (Emel, Ahmet)
+Ukrainian (Ukraine): uk-UA (Polina, Ostap)
+Urdu (India): ur-IN (Gul, Salman)
+Urdu (Pakistan): ur-PK (Uzma, Asad)
+Uzbek (Uzbekistan): uz-UZ (Madina, Sardor)
+Vietnamese (Vietnam): vi-VN (HoaiMy, NamMinh)
+Welsh (United Kingdom): cy-GB (Nia, Aled)
+Zulu (South Africa): zu-ZA (Thando, Themba)
+
+
+===================================================
+
+
+
+
+* Naver TTS *
+Chinese (Simplified), female/male: zh-CN (Meimei, Liangliang)
+Chinese (Traditional), female/male: zh-TW (Chahwa, Guanlin)
+English (United States), female/male: en-US (Clara, Matt)
+French, female/male: fr-FR (Roxane, Louis)
+German, female/male: de-DE (Lena, Tim)
+Japanese, female/male: ja-JP (Yuri, Shinji)
+Korean, female/male: ko-KR (Kyuri, Jinho)
+Russian, female/male: ru-RU (Vera, Aleksei)
+Spanish, female/male: es-ES (Carmen, Jose)
+Thai, female/male: th-TH (Somsi, Sarawut)
+
+
+===================================================
+
+
+
+* Youdao TTS *
+Arabic: ar-SA
+Chinese (Simplified): zh-CN
+Dutch: nl-NL
+English (Great Britain): en-GB
+English (United States): en-US
+French: fr-FR
+German: de-DE
+Indonesian: id-ID
+Italian: it-IT
+Japanese: ja-JP
+Korean: ko-KR
+Portuguese: pt-PT
+Russian: ru-RU
+Spanish: es-ES
+Thai: th-TH
+Vietnamese: vi-VN
