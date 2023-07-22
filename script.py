@@ -78,25 +78,17 @@ def history_modifier(history):
 
 def gen_audio_balabolka(string : str, path_to_audio : Path):
     global params
-    
-    print(f'Generating audio for {string}')
     path_to_balabolka = Path('extensions/balabolka_tts/balabolka/bal4web.exe').resolve()
-
-    print(f'Path to balabolka: {path_to_balabolka}')
     if not path_to_balabolka.exists():
         return "Balabolka not found"
     
-    print(f'Path to audio: {path_to_audio}')
     path_to_text_file = path_to_audio.parent / 'text.txt'
 
-    print(f'Path to text file: {path_to_text_file}')
     with open(path_to_text_file.as_posix(), 'w') as f:
         f.write(string)
     
-    print(f'Generating audio with parameters: -f {path_to_text_file.resolve().as_posix()} -w {path_to_audio.resolve().as_posix()}')
     exec_parameters = f'-f {path_to_text_file.resolve().as_posix()} -w {path_to_audio.resolve().as_posix()}'
 
-    print(f'Full command: {path_to_balabolka.as_posix()} {exec_parameters}')
     subprocess.call(f'{path_to_balabolka.as_posix()} {exec_parameters}', creationflags=subprocess.CREATE_NO_WINDOW)
     
 
@@ -118,7 +110,7 @@ def output_modifier(string):
     random_name = str(hash(string)) + rnd.randint(0, 1000000).__str__()
 
     output_file = Path(f'extensions/balabolka_tts/outputs/{random_name}.wav').resolve()
-    print(f'Outputting audio to {str(output_file)}')
+    
     try:
         gen_audio_balabolka(string, output_file)
         autoplay = 'autoplay' if params['autoplay'] else ''
@@ -128,8 +120,7 @@ def output_modifier(string):
     except:
         string = f'Error: Unknown error\n\n'
 
-    if params['show_text']:
-        string += f'\n\n{original_string}'
+    string += f'\n\n{original_string}'
 
     shared.processing_message = "*Is typing...*"
     return string
@@ -150,24 +141,6 @@ def ui():
         service = gr.Textbox(value=params['selected_service'], label='TTS Service')
         language = gr.Textbox(value=params['selected_language'], label='Language')
         voice = gr.Textbox(value=params['selected_voice'], label='Voice')
-
-    with gr.Row():
-        convert = gr.Button('Permanently replace audios with the message texts')
-        convert_cancel = gr.Button('Cancel', visible=False)
-        convert_confirm = gr.Button('Confirm (cannot be undone)', variant="stop", visible=False)
-
-    if shared.is_chat():
-        # Convert history with confirmation
-        convert_arr = [convert_confirm, convert, convert_cancel]
-        convert.click(lambda: [gr.update(visible=True), gr.update(visible=False), gr.update(visible=True)], None, convert_arr)
-        convert_confirm.click(
-            lambda: [gr.update(visible=False), gr.update(visible=True), gr.update(visible=False)], None, convert_arr).then(
-            remove_tts_from_history, gradio('history'), gradio('history')).then(
-            chat.save_persistent_history, gradio('history', 'character_menu', 'mode'), None).then(
-            chat.redraw_html, shared.reload_inputs, gradio('display'))
-
-        convert_cancel.click(lambda: [gr.update(visible=False), gr.update(visible=True), gr.update(visible=False)], None, convert_arr)
-
 
     # Event functions to update the parameters in the backend
     activate.change(lambda x: params.update({'activate': x}), activate, None)
