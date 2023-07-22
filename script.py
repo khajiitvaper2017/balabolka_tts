@@ -14,7 +14,6 @@ params = {
     'selected_language': 'en-US',
     'selected_voice': 'Monica',
     'autoplay': True,
-    'show_text': True,
 }
 # Config example
 #   -s Microsoft 
@@ -44,26 +43,6 @@ def save_config():
         f.write(f'-s {params["selected_service"]}\n')
         f.write(f'-l {params["selected_language"]}\n')
         f.write(f'-n {params["selected_voice"]}\n')
-
-def remove_tts_from_history(history):
-    for i, entry in enumerate(history['internal']):
-        history['visible'][i] = [history['visible'][i][0], entry[1]]
-
-    return history
-
-
-def toggle_text_in_history(history):
-    for i, entry in enumerate(history['visible']):
-        visible_reply = entry[1]
-        if visible_reply.startswith('<audio'):
-            if params['show_text']:
-                reply = history['internal'][i][1]
-                history['visible'][i] = [history['visible'][i][0], f"{visible_reply.split('</audio>')[0]}</audio>\n\n{reply}"]
-            else:
-                history['visible'][i] = [history['visible'][i][0], f"{visible_reply.split('</audio>')[0]}</audio>"]
-
-    return history
-
 
 def remove_surrounded_chars(string):
     # this expression matches to 'as few symbols as possible (0 upwards) between any asterisks' OR
@@ -166,7 +145,6 @@ def ui():
     with gr.Row():
         activate = gr.Checkbox(value=params['activate'], label='Activate TTS')
         autoplay = gr.Checkbox(value=params['autoplay'], label='Play TTS automatically')
-        show_text = gr.Checkbox(value=params['show_text'], label='Show message text under audio player')
 
     with gr.Row():
         service = gr.Textbox(value=params['selected_service'], label='TTS Service')
@@ -190,12 +168,6 @@ def ui():
 
         convert_cancel.click(lambda: [gr.update(visible=False), gr.update(visible=True), gr.update(visible=False)], None, convert_arr)
 
-        # Toggle message text in history
-        show_text.change(
-            lambda x: params.update({"show_text": x}), show_text, None).then(
-            toggle_text_in_history, gradio('history'), gradio('history')).then(
-            chat.save_persistent_history, gradio('history', 'character_menu', 'mode'), None).then(
-            chat.redraw_html, shared.reload_inputs, gradio('display'))
 
     # Event functions to update the parameters in the backend
     activate.change(lambda x: params.update({'activate': x}), activate, None)
