@@ -1,5 +1,5 @@
 # balabolka_tts_oobabooga
-Balabolka TTS from Oobabooga's text generation webui
+Balabolka TTS for Oobabooga's text generation webui
 
 Balabolka from http://www.cross-plus-a.com/bweb.htm
 
