@@ -1,3 +1,6 @@
 __pycache__/
+
+balabolka/bal4web.cfg
+
 outputs/*
 !outputs/.gitkeep
