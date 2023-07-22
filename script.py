@@ -22,8 +22,8 @@ params = {
 #   -n Dalia
 def load_config():
     global params
-    Path('extensions/balabolka_tts/balabolka/bal4web.cfg')
-    if not Path('extensions/balabolka_tts/balabolka/bal4web.cfg').exists():
+    cfg_path = Path('extensions/balabolka_tts/balabolka/bal4web.cfg').resolve()
+    if not cfg_path.exists():
         save_config()
         return
     with open('extensions/balabolka_tts/balabolka/bal4web.cfg', 'r') as f:
@@ -39,7 +39,8 @@ def load_config():
 
 def save_config():
     global params
-    with open('extensions/balabolka_tts/balabolka/bal4web.cfg', 'w') as f:
+    cfg_path = Path('extensions/balabolka_tts/balabolka/bal4web.cfg').resolve()
+    with open(cfg_path, 'w') as f:
         f.write(f'-s {params["selected_service"]}\n')
         f.write(f'-l {params["selected_language"]}\n')
         f.write(f'-n {params["selected_voice"]}\n')
