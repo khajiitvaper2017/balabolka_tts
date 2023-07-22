@@ -110,7 +110,8 @@ def output_modifier(string):
     random_name = str(hash(string)) + rnd.randint(0, 1000000).__str__()
 
     output_file = Path(f'extensions/balabolka_tts/outputs/{random_name}.wav').resolve()
-    
+    audio_patter = r'<audio\b[^>]*>(.*?)<\/audio>'
+    string = re.sub(audio_patter, '', string)
     try:
         gen_audio_balabolka(string, output_file)
         autoplay = 'autoplay' if params['autoplay'] else ''
@@ -120,7 +121,7 @@ def output_modifier(string):
     except:
         string = f'Error: Unknown error\n\n'
 
-    string += f'\n\n{original_string}'
+    string += f'\n\n{re.sub(audio_patter, "", original_string)}'
 
     shared.processing_message = "*Is typing...*"
     return string
